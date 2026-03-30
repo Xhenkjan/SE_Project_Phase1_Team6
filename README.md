@@ -13,7 +13,10 @@ Team Members:
 [Eren Akif Brucaj] - GitHub: [ErenAkifBrucaj] - Email: [ebrucaj25@epoka.edu.al]
 [Erisa Kasaballi] - GitHub: [erisa11kasaballi-lang] - Email: [ekasaballi25@epoka.edu.al]
 [Alona Voshtina] - GitHub: [avoshtina25-hash] - Email: [avoshtina25@epoka.edu.al]
+[Henri Dervishi] - GitHub: [henridervishi] - Email: [hdervishi23@epoka.edu.al]
+
 Project Details
+
 Project Title: [Library Improvement]
 
 Problem Statement:
