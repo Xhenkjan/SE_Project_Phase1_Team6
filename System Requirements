@@ -1,1 +1,304 @@
+Phase II: User Requirements and Application Specifications
+Project: Smart Library Management System
+
+#1 Chosen Development Model
+
+Agile Development Model
+
+Justification:
+The Agile model was the selected model, because it allows flexibility and continuous improvement during development. 
+The project contains different sections like book borrowing, e-books, and student notes. From that, Agile makes it easier to develop features step by step, test them, and improve them based on feedback given by users.
+
+#2. User Requirements
+
+a. Stakeholders:
+
+1. Students
+- Borrow physical books
+- Access e-books
+- Upload and download notes
+- Track borrowed books and deadlines
+
+2. Librarians
+- Manage books
+- Approve borrowing requests
+- Track returns
+
+3. Admin
+- Manage users
+- Manage e-books and notes
+- Monitor the whole system
+
+4. Developers
+- Build and maintain the system
+
+5. Guest User
+Roles:
+- Can browse into limited content without logging in
+
+6. University Administrator
+Roles:
+- Monitor academic systems and performance
+
+7. Content Reviewer
+Roles:
+- Reviews and validates uploaded notes
+
+8. Lecturer
+Roles:
+- Provides academic content and guidance
+
+9. IT Support Staff
+Roles:
+- Maintains system functionality
+
+10. External E-Book Provider 
+Roles:
+- Provides additional E-books
+
+b. User Stories
+- As a student, I want to search books by title or author, so I can quickly find what I need.
+
+- As a student, I want to see the return date of borrowed books to avoid late returns.
+
+- As a student, I want to borrow e-books online, so I can access materials from anywhere.
+
+- As a student, I want to upload study notes, so I can help other students.
+
+- As an admin, I want to add and remove books to keep the database updated.
+
+- As a librarian, I want to track borrowed books, to know which books are available.
+
+- As a developer, I want to build and maintain the system using codes, so the app is easier to update and improve.
+
+- As a guest user, I want to browse available books and notes, so I can decide to register in the system.
+
+- As an university administrator, I want to view reports related to system usage, so I can evaluate how effectively students are using library materials.
+
+- As a content reviewer, I want to review and approve student notes, so materials uploaded on the app are accurate and high-quality level.
+
+- As an IT support staff, I want to monitor system errors to fix technical problems quickly.
+
+- As a lecturer, I want to upload accurate materials and notes to help students to better understand course topics.
+
+- As an external e-book provider, I want to integrate my digital library with system, so students can access more online resources.
+
+#3. Functional Requirements
+
+1. User Registration and Login
+Description:
+The system should allow users to create an account and log in.
+
+Acceptance Criteria:
+- User enters email and password
+- System verifies credentials
+- User is redirected to dashboard
+- Error message appears for invalid login
+
+2. Search Books
+Description:
+The system should allow users to search books by title, author, or category.
+
+Acceptance Criteria:
+- User enters a search term
+- System displays matching books
+- Results show availability status
+
+3. Borrow Physical Books
+Description:
+The system should allow students to borrow books.
+
+Acceptance Criteria:
+- Student selects a book
+- System checks availability
+- Borrow date and return date are recorded
+- Book status changes to borrowed
+
+4. Access E-Books
+Description:
+The system should allow students to read or download e-books.
+
+Acceptance Criteria:
+- User selects an e-book
+- System opens online reading page or download option
+- Access is allowed only to registered users
+
+5. Upload Student Notes
+Description:
+The system should allow students to upload notes.
+
+Acceptance Criteria:
+- Student uploads file
+- Admin reviews and approves notes
+- Approved notes become visible to other students
+
+6. Filter Books
+Description:
+The system should allow users to filter books by category, author, or availability.
+
+7. View Book Details
+Description:
+The system should display detailed information about a selected book.
+
+8. Borrowing History
+Description:
+The system should allow users to view their borrowing history.
+
+9. Extend Borrowing Time
+Description:
+The system should allow users to extend the return date of a borrowed book.
+
+10. Reserve Books
+Description:
+The system should allow users to reserve books that are currently unavailable.
+
+11. Cancel Reservation
+Description:
+The system should allow users to cancel a book reservation.
+
+12. Download Notes
+Description:
+The system should allow users to download student notes.
+
+13. View Notes Details
+Description:
+The system should display detailed information about notes.
+
+14. Rate Notes
+Description:
+The system should allow users to rate notes.
+
+15. Delete Notes
+Description:
+The system should allow users or admins to delete notes.
+
+16. Manage User Profiles
+Description:
+The system should allow users to update their profile information.
+
+17. Admin Manage Users
+Description:
+The system should allow admin to manage users.
+18. Upload E-Books
+
+Description:
+The system should allow admin to upload new e-books.
+
+19. Search E-Books
+Description:
+The system should allow users to search for e-books.
+
+20. Logout System
+Description:
+The system should allow users to log out securely.
+
+#4. Non-Functional Requirements
+
+1. Availability
+ Description: The system should always be accessible
+
+ Acceptance Criteria:
+-Uptime minimum 99%
+-No more than one hour of downtime each month
+
+2. Performance
+ Description: System should be quick to respond to the actions of the user
+
+ Acceptance Criteria: 
+-The pages will load in <2 seconds
+-The search results will appear in <1 second
+
+3. Usability
+ Description: System should be easy to use
+
+ Acceptance Criteria:
+-Beginner users can do basic tasks <5 minutes
+-Design patters are consistent in the UI
+
+
+4. Reliability
+ Description: System should be able to function without any errors
+
+ Acceptance Criteria:
+-Crash rate <1%
+-If an operation fails, it is retired automatically
+
+5. Security
+Description: The data of users is protected
+
+Acceptance Criteria:
+-Encrypted passwords
+-HTTPS for all comms
+
+6. Scalability
+ Description: System should be able to handle the userbase increasing
+
+7. Accessibility
+ Description: System should be usable by all users
+
+8. Backup and Recovery
+ Description: System should provide recoverable data
+
+9. Compatibility
+ Description: System should integrate appropriately 
+
+10. Error Handling
+ Description: Errors should be handled properly
+
+11. Flexibility
+ Description: System should allow future improvements and changes
+
+12. Performance under load
+ Description: System should be able to handle heavy usage
+
+13. Logging
+ Description: System activity should be tracked
+
+14. Privacy
+ Description: System should provide the user’s data private 
+
+15. Interoperability
+ Description: System should be able to work well with other systems
+
+16. Session Management
+ Description: User sessions should be reasonably controlled
+
+17. Documentation
+Description: System should be documented enough
+
+18. Data storage efficiency
+ Description: System should provide optimized storage
+
+
+19. User load time for notes
+ Description: Notes must load quickly
+
+20. Search Efficiency
+Description: System should provide accurate and fast search
+
+#5. Application Specifications
+
+a. Architecture
+The system follows a three-tier architecture that includes a frontend that provides user interface for students, librarians, and admins. 
+The other part of the system is backend that  handles business logic, authentication, and borrowing operations and the last part is the database.
+The database stores users, books, borrowings, e-books, and notes.
+
+b. Database Model
+The database includes tables that are users, books, borrowings, Ebooks, notes. 
+In these tables one user can borrow many books, while one book can have many borrow records. 
+Also, one user can upload many notes.
+
+c. Technologies Used
+The system is developed using HTML, CSS and JavaScript for the frontend development, because these programming languages are easier and flexible to implement.
+For the backend development, used language is the Python due to its simplicity. 
+The database uses MySQL for the efficient data management and simple manipulations in the database. 
+
+d. User Interface Design
+The system includes a login, dashboard, search books , borrowed books, E-book library and a student notes page. 
+The interface is simple, clear and easy understandable for the users of the system. 
+
+e. Security Measures
+The system uses an user authentication with secured login credentials like email and password. 
+The passwords are encrypted before storage. 
+Also the database has a protected access that allows only authorized part of development team to have access on the database of the system.
 
